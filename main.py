@@ -8,7 +8,7 @@ import matplotlib
 matplotlib.use('TkAgg')
 
 def generate_photon_coordinates(N, a1, a2):
-    # от 2 до 2п
+    # от 0 до 2п
     theta = np.random.uniform(0, 2*np.pi, N)
     
     # r ~ sqrt(r1² + u*(r2² - r1²))
